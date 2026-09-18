@@ -1,0 +1,27 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="512dp"
+    android:height="512dp"
+    android:viewportWidth="100"
+    android:viewportHeight="100">
+
+    <!-- Fond Cercle Slate -->
+    <path
+        android:pathData="M50,50m-48,0a48,48 0,1 1,96 0a48,48 0,1 1,-96 0"
+        android:fillColor="#0E1F2B"/>
+
+    <!-- Forme Pavé 1 (Vert Émeraude) -->
+    <path
+        android:pathData="M35,35 L65,35 L75,50 L65,65 L35,65 L25,50 Z"
+        android:fillColor="#12B76A"/>
+
+    <!-- Forme Pavé 2 Imbriqué (Blanc) -->
+    <path
+        android:pathData="M45,45 L75,45 L85,60 L75,75 L45,75 L35,60 Z"
+        android:fillColor="#FFFFFF"
+        android:fillAlpha="0.9"/>
+
+    <!-- Accent Feuille Minimaliste (Vert Clair) -->
+    <path
+        android:pathData="M50,40 C55,40 60,45 60,50 C60,55 55,60 50,60 C45,60 40,55 40,50 C40,45 45,40 50,40 Z"
+        android:fillColor="#E3F6EC"/>
+</vector>
