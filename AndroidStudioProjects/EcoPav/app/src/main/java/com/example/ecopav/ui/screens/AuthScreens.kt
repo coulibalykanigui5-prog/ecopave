@@ -160,7 +160,7 @@ fun LoginScreen(
         Spacer(modifier = Modifier.height(32.dp))
         
         Text(
-            "Ou avec vos identifiants",
+            "Ou avec vos identifiants personnelles"
             style = MaterialTheme.typography.labelMedium,
             color = Slate.copy(alpha = 0.4f),
             modifier = Modifier.align(Alignment.CenterHorizontally)
